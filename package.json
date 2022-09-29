@@ -1,0 +1,18 @@
+{
+  "name": "3.html-css-javascript-website-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "default": "app.js",
+  "scripts": {
+    "start":"parcel index.html",
+    "build" : "parcel build index.html --dist-dir ./dist --no-scope-hoist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
