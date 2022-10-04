@@ -4,8 +4,8 @@
   "description": "",
   "default": "app.js",
   "scripts": {
-    "start":"parcel index.html",
-    "build" : "parcel build index.html --dist-dir ./dist --no-scope-hoist",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
